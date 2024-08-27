@@ -1,7 +1,7 @@
 import json
 from jsonschema import validators, validate
 
-with open("schema..json", "r") as f:
+with open("schema.json", "r") as f:
     schema_data = json.load(f)
 validators.validator_for(schema_data).check_schema(schema_data)
 
