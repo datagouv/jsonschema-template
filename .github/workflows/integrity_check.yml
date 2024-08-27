@@ -1,4 +1,4 @@
-name: Vérification de la cohérence des versions dans tous les champs du schéma
+name: Vérification de la structure du schéma et de la validité de l'exemple
 
 on:
   push:
@@ -16,4 +16,4 @@ jobs:
       with:
         python-version: "3.10"
 
-    - run: python .github/workflows/check_integrity.py
+    - run: python .github/workflows/integrity_check.py
