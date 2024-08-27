@@ -11,12 +11,13 @@ Ce dépôt contient les fichiers nécessaires pour démarrer la création d'un d
 
 Ce dépôt contient un ensemble de fichiers utiles pour un dépôt d'un schéma [Json Schema](https://json-schema.org/).
 
+- [`product.json`](product.json) est le schéma au format Json Schema (à renommer) ;
+- [`exemple-valide.json`](exemple-valide.json) est un fichier json d'exemple conforme par rapport au schéma décrit dans `product.json`  ;
 - [`CHANGELOG.md`](CHANGELOG.md) contient la liste des changements entre les différentes versions de votre schéma ;
-- [`exemple-valide.json`](exemple-valide.json) est un fichier json d'exemple conforme par rapport au schéma décrit dans `schema.json`  ;
 - [`LICENSE.md`](LICENSE.md) est le fichier de licence du dépôt. Nous recommandons d'utiliser la [Licence Ouverte](https://www.etalab.gouv.fr/licence-ouverte-open-licence), cette licence est recommandée par l'administration française pour le partage de données et de documents ;
 - [`README.md`](README.md) est le fichier que vous lisez actuellement. À terme, il devra présenter votre schéma ;
 - [`requirements.txt`](requirements.txt) liste les dépendances Python nécessaires pour effectuer des tests en intégration continue sur votre dépôt ;
-- [`schema.json`](schema.json) est le schéma au format Json Schema.
+- [`schema.yml`](schema.yml) est le fichier technique qui lie le schéma à schema.data.gouv.fr.
 
 ### Intégration continue
 
