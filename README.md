@@ -25,7 +25,7 @@ Ce dépôt est configuré pour utiliser de l'intégration continue, si vous util
 - que votre schéma est valide à la spécification Json Schema ;
 - que vos fichiers d'exemples sont conformes au schéma.
 
-Si vous n'utilisez pas GitHub, vous pouvez lancer ces tests sur votre machine ou sur un autre service d'intégration continue comme Gitlab CI, Jenkins, Circle CI, Travis etc. Consultez la configuration utilisée dans [`.github/workflows/test.yml`](.github/workflows/test.yml).
+Si vous n'utilisez pas GitHub, vous pouvez lancer ces tests sur votre machine ou sur un autre service d'intégration continue comme Gitlab CI, Jenkins, Circle CI, Travis etc. Consultez la configuration utilisée dans [`.github/workflows`](.github/workflows).
 
 
 ## Documentation
