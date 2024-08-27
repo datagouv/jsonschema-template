@@ -1,0 +1,8 @@
+title: "Produits"
+description : "Spécification du schéma de données Produits"
+homepage: "https://github.com/datagouv/jsonschema-template"
+
+schemas:
+  -
+    path: "product.json"
+    title: "Produits"
