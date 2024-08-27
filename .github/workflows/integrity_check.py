@@ -4,7 +4,7 @@ import logging
 import yaml
 from jsonschema import validators, validate
 
-with open("schema.yml", "r") as f:
+with open("schemas.yml", "r") as f:
     data = yaml.safe_load(f)
 schema_path = data['schemas'][0]['path']
 
